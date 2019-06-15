@@ -1,0 +1,4 @@
+°²×°ÍøÕ¾£ºhttps://github.com/GregoryFaust/samblaster¡£
+samblaster is a fast and flexible program for marking duplicates in read-id grouped1 paired-end SAM files. It can also optionally 
+output discordant read pairs and/or split read mappings to separate SAM files, and/or unmapped/clipped reads to a separate FASTQ file. When marking duplicates,
+samblaster will require approximately 20MB of memory per 1M read pairs.

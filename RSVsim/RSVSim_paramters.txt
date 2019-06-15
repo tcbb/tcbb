@@ -1,0 +1,139 @@
+Simulate Chr15 data and RSVSim paramters
+runing environment: Windows8.1 operating system.
+Memory capacity:  16G.
+Computer Model:  Dell OptiPlex 3046
+DNAStringSet: chr15 of Williams82 genome.
+RSVSim produces: 709 insertions, 824 deletions, 356 inversions.
+start running program: RSVSim 1.20.0
+load Williams82.chr15:
+>library(BSgenome.Williams82.chr15)#Williams82.chr15 is 49.3MB
+>genome=DNAStringSet(Williams82.chr15.fasta)
+
+
+Insertion parameters:
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=242,invs=0,dups=0,trans=0,
+            size,sizeDels=0,sizeIns=(1:100),sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.25,repeatBias=TRUE,random=TRUE,
+            verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=424,invs=0,dups=0,trans=0,
+            size,sizeDels=0,sizeIns=(100:200),sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.25,repeatBias=TRUE,random=TRUE,
+            verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=43,invs=0,dups=0,trans=0,
+            size,sizeDels=0,sizeIns=(200:300),sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.25,repeatBias=TRUE,random=TRUE,
+            verbose=FALSE)
+
+Deletion parameters:
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=298,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(0:499),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=3000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=340,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(500:999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=2500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=69,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(1000:1999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=2000,verbose=FALSE)
+
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=47,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(2000:2999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=1500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=27,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(3000:3999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=1000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=16,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(4000:4999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=1000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=18,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(5000:5999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=1000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=9,ins=0,invs=0,dups=0,trans=0,
+            size,sizeDels=(6000:25878172),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.15,repeatBias=TRUE,random=TRUE,
+            seed=1000,verbose=FALSE)#25878172 is half of the Gmax_chr15 length
+
+Inversion:
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=100,dups=0,trans=0,
+            size,sizeDels=(0:499),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=6000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=161,dups=0,trans=0,
+            size,sizeDels=(500:999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=5500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=17,dups=0,trans=0,
+            size,sizeDels=(1000:1999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=5000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=24,dups=0,trans=0,
+            size,sizeDels=(2000:2999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=4500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=24,dups=0,trans=0,
+            size,sizeDels=(2000:2999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=4000,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=16,dups=0,trans=0,
+            size,sizeDels=(3000:3999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=3500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=13,dups=0,trans=0,
+            size,sizeDels=(4000:4999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=3500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=12,dups=0,trans=0,
+            size,sizeDels=(5000:5999),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=3500,verbose=FALSE)
+ simulateSV(output=NA,genome=genome,chrs="chr15",
+            dels=0,ins=0,invs=13,dups=0,trans=0,
+            size,sizeDels=(6000:6469543),sizeIns=0,sizeInvs=0,sizeDups=0,
+            percCopiedIns=0.2,repeatBias=TRUE,random=TRUE,
+            seed=3500,verbose=FALSE)#6469543is one-eight of Gmax_chr15 length   
+
+Description of used parameters:
+output:Output directory for the rearranged and SV lists;turn this off by passing NA(default:current directory)
+genome:The genome as DNAStringSet or a filename pointing to a FASTA-file contianing the genome sequence
+chrs:  Restric simulation to certain chromosomes only(default:all chromosomes available)
+dels:  Numbers of deletions
+ins:   Numbers of insertions
+invs:  Numbers of inversions
+size:  Size of SVs in bp(a single numeric value);a quick way to set a size,which is applied to all simulated SVs
+sizeDels:Size of deletions:either a single number for all deletions or a vector with a length for every single deletion
+sizeIns: Size of insertions:either a single number for all insertions or a vector with a length for ever single insertion
+sizeInv: Size of inversions:either a single number for all inversions or a vector with a length for every single inversion
+percCopiedIns:Percentage of copy-and-paste-like insertions(default:0,i.e. no inserted sequences are duplicated)
+repeatBias: If TRUE,the breakpoint positioning is biased towards repeat regions instead of a uniform distribution;turned off by default(see details below)
+random: If TRUE, the SVs will be placed randomly within the genome or the givern regions;otherwise, the given regions will be used as SV coordiantes(random can also be a vector of five elements with TRUE/FALSE for every SV in the following order:deletions,insertions,inversions,duplications,translocations)
+seed: Fixed seed for generation of random SV positions
+verbose:If TRUE,some message about the progress of the simulation will be printed into the R console
+
+
+
+
